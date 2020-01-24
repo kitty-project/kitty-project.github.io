@@ -6,7 +6,7 @@ import kitty.Kitty;
 
 public class App {
   public static void main(String[] args) {
-    fibal UserService userService = new UserService();    
+    final UserService userService = new UserService();    
     Kitty
       .create(router -> router
         .get("/users", (request, response) -> response.status(200).body(userService.findAll()))
