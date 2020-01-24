@@ -1,4 +1,4 @@
-# Kitty, a very lightweight Java microframework
+# [Kitty](https://github.com/kitty-project/kitty), a very lightweight Java microframework
 ### Sample
 ```java
 import app.UserService;
