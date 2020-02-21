@@ -5,6 +5,8 @@ import kitty.HttpMethod;
 import kitty.HttpStatus;
 import kitty.Kitty;
 
+import java.util.Set;
+
 public class App {
     public static void main(String[] args) {
         final UserService userService = new UserService();
