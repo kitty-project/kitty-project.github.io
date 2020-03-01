@@ -40,4 +40,4 @@ public class App {
 }
 
 ```
-Check out complete sample project: https://github.com/kitty-project/kitty-sample 
+Check out complete sample project: [kitty-sample](https://github.com/kitty-project/kitty-sample)
