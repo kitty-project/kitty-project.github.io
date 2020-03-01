@@ -1,5 +1,20 @@
 # [Kitty](https://github.com/kitty-project/kitty), a very lightweight Java microframework
-### Sample
+### Install Kitty
+```shell
+$ git clone https://github.com/kitty-project/kitty
+$ cd kitty
+$ git checkout develop
+$ ./mvnw install
+```
+### Add as dependency
+```xml
+<dependency>
+    <groupId>kitty</groupId>
+    <artifactId>kitty</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
+### Sample Application
 ```java
 import kitty.Configuration;
 import kitty.HttpMethod;
@@ -25,3 +40,4 @@ public class App {
 }
 
 ```
+Check out complete sample project: https://github.com/kitty-project/kitty-sample 
